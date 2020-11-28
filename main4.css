@@ -1,0 +1,231 @@
+div {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 10%;
+  /* background-color: #e7c9c9; */
+  background-color: #f3ddca;
+  color: #3f2c3b;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+  font
+}
+
+h1 {
+  font-size: 70px;
+  font-style: oblique;
+}
+
+h2 {
+  font-size: 45px;
+  font-style: oblique;
+}
+
+h3{
+  clear:left;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul{
+  font-size: 20px;
+}
+
+
+.img{
+  float:left;
+  margin-right: 1%;
+  /* margin: 0 10px 10px 0; */
+}
+
+.galeriePhs{
+  float: left;
+  border: 1px solid black;
+  margin: 0 1% 2% 0;
+}
+
+#menu{
+  font-size: 40px;
+  background-color: #c57c3d;
+  padding: 10px 10px;
+}
+
+
+#menu > a[href^='#']{
+  color: #580f0a;
+  font-style: oblique;
+}
+
+#menu > a:hover{
+  color: darkred;
+  position: relative;
+  bottom:2px;
+  left:2px;
+}
+
+#istOras > a:hover{
+  color: darkred;
+  position: relative;
+  bottom:2px;
+  left:2px;
+}
+
+#mapCM{
+  margin-bottom: 2%;
+}
+
+#imgLogo {
+  margin-bottom: 2%;
+}
+
+#galerieImg > .galeriePhs:nth-last-child{
+  margin-left: 0;
+}
+
+#img2{
+  float:right;
+}
+
+#mi1{
+  float:left;
+}
+
+#cnpci {
+  float: right;
+}
+
+#meapc {
+  float: none;
+  margin: 0 15%;
+}
+
+#pt {
+  float:right;
+  height: 150px;
+  margin-right: 10%;
+}
+
+#rama {
+  padding: 1%;
+  border: 10px solid darkred;
+  height: 1000px;
+}
+
+/* responsive design */
+
+@media(max-width:1670px){
+  #g4 {
+    height: 600px;
+  }
+
+  #rama {
+    height: 850px;
+  }
+
+}
+
+@media(max-width:1511px){
+  body{
+    padding: 0 5%;
+  }
+}
+
+@media(max-width:1350px){
+  body{
+    padding: 0;
+  }
+
+  #meapc{
+    margin:0 5%;
+  }
+
+}
+
+@media(max-width:1215px){
+  #menu {
+    font-size: 30px;
+    padding: 5px;
+  }
+
+  #img2 {
+    float:left;
+    clear:all;
+  }
+
+}
+
+@media(max-width:1125px){
+  #g4 {
+    height: 500px;
+  }
+
+  #rama {
+    height: 750px;
+  }
+
+  #meapc{
+    margin:0 1%;
+  }
+
+}
+
+@media(max-width:950px){
+  #pt{
+    margin-right: 0;
+  }
+
+  #rama{
+    height: 850px;
+  }
+
+  #meapc{
+    margin: 0;
+  }
+
+  #g4{
+    height: 350px;
+  }
+
+}
+
+@media(max-width:910px){
+  h1{
+    font-size: 50px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  #menu {
+    font-size: 25px;
+  }
+
+  #meapc{
+    height: 350px;
+  }
+
+  #mapCM{
+    float:none;
+    clear:left;
+  }
+}
+
+@media(max-width:750px){
+  #menu {
+    font-size: 23px;
+  }
+
+  #cnpci{
+    float:left;
+    clear:right;
+  }
+}
